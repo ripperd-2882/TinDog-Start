@@ -9,7 +9,8 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 0;
+    height: 560px;
 }
 
 h1 {
@@ -69,12 +70,17 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: relative;
+    left: 30%;
 }
 
 /* features */
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
 }
 
 .features-box {
