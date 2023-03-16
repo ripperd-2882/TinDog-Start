@@ -135,3 +135,24 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #features {
+        position: static;
+    }
+
+    .container-fluid {
+        height: auto;
+        padding-bottom: 5%;
+    }
+}
